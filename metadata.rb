@@ -1,8 +1,8 @@
 name              "monit_configs-tlq"
-maintainer        "Ben Dixon"
-maintainer_email  "ben@talkingquickly.co.uk"
+maintainer        "John Meehan"
+maintainer_email  "john.meehan1@gmail.com"
 description       "Monit configs for server components"
-version           "0.1.2"
+version           "0.0.1"
 
 recipe "monit_configs-tlq::memcached", "Monit config for memcached"
 recipe "monit_configs-tlq::mongo", "Monit config for mongodb"
